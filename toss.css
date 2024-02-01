@@ -1,0 +1,223 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 23px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.choice{
+
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+
+img{
+
+height: 150px;
+width: 150px;
+
+}
+
+button{
+    height: 30px;
+}
+
+#selection{
+
+    text-align: center;
+    margin-top: 23px;
+}
+
+
+.flip{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+    position: relative;
+}
+
+.flip button{
+
+   
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.flip-images #H{
+display: none;
+position: relative;
+bottom: 150px;
+border-radius: 50%;
+
+}
+
+
+ .flip-images #T{
+
+   position: relative;
+   bottom: 150px;
+   border-radius: 50%;
+
+  display: none;
+ }
+
+ #compsel{
+
+    transform: translateY(-110px);
+
+ }
+
+
+ @media(max-width:375px){
+
+    img{
+
+        height: 140px;
+        width: 140px;
+        
+        }
+
+
+        h2{
+            text-align: center;
+            margin-top: 15px;
+        }
+
+
+        #compsel{
+
+            display: block;
+            position: relative;
+            top: 150px;
+            font-weight: 700;
+        }
+
+
+
+
+
+        .flip-images #T{
+
+            position: relative;
+            bottom: 1px;
+            border-radius: 50%;
+            top: 100px;
+
+           display: none;
+          }
+
+
+
+          .flip-images #H{
+            display: none;
+            position: relative;
+            bottom: 1px;
+            top: 100px;
+            border-radius: 50%;
+            
+            }
+
+
+body{
+
+    background-color: burlywood;
+}
+        
+
+
+#TAILS{
+
+    margin-left: 34px;
+}
+
+
+
+.flip button{
+
+   
+    padding: 15px;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+ }
+
+
+ @media(min-width:380px) and (max-width:630px){
+
+
+    img{
+
+        height: 170px;
+        width: 170px;
+        
+        }
+
+
+        h2{
+            text-align: center;
+            margin-top: 15px;
+        }
+
+
+        #compsel{
+
+            display: block;
+        
+       
+            font-weight: 700;
+        }
+
+
+        .flip-images #T{
+
+            /* position: relative;
+            bottom: 1px; */
+            border-radius: 50%;
+            /* top: 100px; */
+
+           display: none;
+          }
+
+
+
+          .flip-images #H{
+            display: none;
+            /* position: relative;
+            bottom: 1px; */
+            /* top: 100px; */
+            border-radius: 50%;
+            
+            }
+
+
+            body{
+
+                background-color: burlywood;
+            }
+ }
+
